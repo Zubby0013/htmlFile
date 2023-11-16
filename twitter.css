@@ -1,0 +1,329 @@
+/* pls nobody should temper with this css code just add your own css at the bottom pls take note */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 1500px;
+    width: 100%;
+    /* background-color:aqua; */
+    display: flex;
+}
+.box1{
+    height: 110vh;
+    width: 27%;
+    background-color: black;
+    border-right: solid 2px;
+    border-color: rgb(149,150,151);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box1-wrapper{
+    /* background-color: #f80a0a; */
+    width: 60%;
+    height: 95%;
+}
+
+.logo{
+    width: 30px; 
+    height: 30px;
+}
+
+.function{
+    width: 90%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    margin-top: 15px;
+}
+
+.Home1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: sans-serif;
+    color: #e2e4e4;
+    margin-top: 5px;
+}
+
+.Home-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-pics{
+    width: 25px;
+    height: 30px;
+}
+
+h5{
+    font-family: sans-serif;
+    color: #e2e4e4;
+    font-size: 15px;
+}
+
+.notify{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.notify-pics{
+    width: 25px;
+    height: 30px;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-pics{
+    width: 25px;
+    height: 30px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.bookmark{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bookmark-pics{
+    width: 25px;
+    height: 30px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.verify{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.verify-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.profile1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile1-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-pics{
+    width: 25px;
+    height: 25px;
+}
+
+.button{
+    width: 90%;
+    height: 40px;
+    background-color: #1d9bf0;
+    border-radius: 20px;
+    color: #e2e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-circleHolder{
+    display: flex;
+    margin-top: 20px;
+}
+
+.image-circle{
+    background-color: cadetblue;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    margin: 20px 0 0 20px;
+}
+
+.box2{
+    height: 100%;
+    width: 43%;
+    background-color: tomato;
+    border-right: solid 2px;
+    border-color: rgb(149,150,151);
+}
+
+.box3{
+    height: 100%;
+    width: 30%;
+    background-color: chartreuse;
+}
+header{
+    height: 140px;
+    width: 100%;
+    background-color:darkblue;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(149,150,151);
+}
+
+.header_holder{
+    height: 50%;
+    width: 30%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Home{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    height: 90%;
+    width: 90%;
+    background-color: darkmagenta;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: -9px;
+}
+
+.wrapper{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.headercontent1{
+    height: 100%;
+    width: 50%;
+    background-color:chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.bar{
+    margin-left: -128px;
+    height: 7px;
+    width: 76px;
+    background-color: rgb(29,155,240);
+    border-radius: 15px;
+}
+.headercontent2{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(36, 210, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+   
+    height: 50%;
+    width: 50%;
+    /* background-color: rgb(46, 138, 218); */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #ffff;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 14px;
+     margin-left: -50px;
+}
+.h1 :hover{
+    cursor: pointer;
+    color: red;
+}
+.h2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(46, 138, 218);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: rgb(83,86,90);
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: -10px;
+    /* margin-left: -50px; */
+}
+.header2{
+    height: 134px;
+    width: 100%;
+     background-color:rgb(195, 235, 16);
+     border-bottom: solid 2px;
+     border-color: rgb(149,150,151); 
+}
+.header3{
+    height: 70px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px;
+    border-color: rgb(149,150,151); 
+}
+span{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(22,125,194);
+}
+
+.post1{
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+}
+.post2{
+    height: 400px;
+    width: 100%;
+    background-color: #f80a0a;
+}
